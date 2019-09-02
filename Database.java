@@ -6,7 +6,7 @@ private static Database database_instance = null;
 	
 	private ArrayList<User> users = new ArrayList<User>();
 	private ArrayList<MessageBoard> messageBoards = new ArrayList<MessageBoard>();
-	
+	//These comments were made in ecplipse in git
 	public static Database getInstance() {
 		
 		if(database_instance == null) {
